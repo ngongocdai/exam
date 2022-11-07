@@ -10,17 +10,17 @@ int smallest_index(int a[],int n){
 	}
 	return index;
 }
-   int main(){
+int main(){
    	int n;
    	printf("Total elements in array\n");
    	scanf("%d",&n);
    	int a[n];
-   	printf("Input arrey:\n");
+   	printf("Input array:\n");
    	for(int i=0;i<n;i++){
-   	printf("a[%d]:",i);
-   	scanf("%d",&a[i]);
+   		printf("a[%d]:",i);
+   		scanf("%d",&a[i]);
    }
-   printf("Smallest index of arrey is %d", smallest_index(a,n));
+   printf("Smallest index of array is %d", smallest_index(a,n));
 }
 
 
